@@ -16,7 +16,7 @@ function MostrarDiploma(titulo, imagen){
 
     let cruz = document.createElement('img');
     cruz.setAttribute("class", "img_close");
-    cruz.setAttribute("src", "/assets/imagenes/Close.png");
+    cruz.setAttribute("src", "../assets/imagenes/Close.png");
 
     click.appendChild(cruz);
     cont_diploma.appendChild(click);
@@ -26,7 +26,7 @@ function MostrarDiploma(titulo, imagen){
     
     let phpAvanzado = document.createElement('img');
     phpAvanzado.setAttribute("class", "img_diplo");
-    phpAvanzado.setAttribute("src", "/assets/imagenes/"+info[1]+".png");
+    phpAvanzado.setAttribute("src", "../assets/imagenes/"+info[1]+".png");
     cont_diploma.appendChild(phpAvanzado);
 
     document.getElementById("cont-diplo").appendChild(cont_diploma);
